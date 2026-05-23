@@ -1,0 +1,70 @@
+REQUIRED PLUGINS — Anderson Junk Removal Pros Website
+All plugins are 100% free. Install via WordPress Admin → Plugins → Add New → Search by name.
+
+====================================================
+1. KADENCE BLOCKS
+====================================================
+Search Name: "Kadence Blocks"
+Author: Kadence WP
+Purpose: Advanced content blocks (accordion for FAQ, column layouts, buttons, icon boxes)
+Install: Plugins → Add New → Search "Kadence Blocks" → Install → Activate
+Required: YES — used for FAQ accordion, service cards, and column layouts
+
+====================================================
+2. WPFORMS LITE
+====================================================
+Search Name: "WPForms Lite"
+Author: WPForms
+Purpose: Drag-and-drop contact/quote form builder
+Install: Plugins → Add New → Search "WPForms Lite" → Install → Activate
+Required: YES — powers the quote request form on homepage and contact page
+Setup notes:
+  - After activation, go to WPForms → Add New → Create a Simple Contact Form
+  - Add fields: Full Name, Phone Number, Email, Message (text area)
+  - Set confirmation message: "Thanks! We'll be in touch within 1 business day."
+  - Update notification email from placeholder to your real email address
+
+====================================================
+3. YOAST SEO
+====================================================
+Search Name: "Yoast SEO"
+Author: Team Yoast
+Purpose: Meta titles, meta descriptions, XML sitemap, Google Search Console integration
+Install: Plugins → Add New → Search "Yoast SEO" → Install → Activate
+Required: YES — critical for all on-page SEO
+Setup notes:
+  - Run the setup wizard after activation
+  - Connect to Google Search Console via the wizard
+  - Enter meta title and description for each page using data from seo/meta-tags.md
+
+====================================================
+4. WP SUPER CACHE
+====================================================
+Search Name: "WP Super Cache"
+Author: Automattic
+Purpose: Page caching for faster load times (improves PageSpeed score)
+Install: Plugins → Add New → Search "WP Super Cache" → Install → Activate
+Setup notes:
+  - Go to Settings → WP Super Cache → Easy tab
+  - Click "Enable Caching" → click "Update Status"
+
+====================================================
+5. INSERT HEADERS AND FOOTERS
+====================================================
+Search Name: "Insert Headers and Footers"
+Author: WPBeginner
+Purpose: Add CallRail JavaScript tracking snippet and JSON-LD schema to site <head>
+Install: Plugins → Add New → Search "Insert Headers and Footers" → Install → Activate
+Setup notes:
+  - Go to Settings → Insert Headers and Footers
+  - Paste CallRail script snippet into "Scripts in Header" box
+  - Paste Local Business schema JSON-LD (from seo/schema.json) into "Scripts in Header" box
+  - Paste FAQ schema JSON-LD (from seo/schema.json) into "Scripts in Header" box
+
+====================================================
+OPTIONAL BUT RECOMMENDED
+====================================================
+- Smush (free image compression, alternative to manual squoosh.app)
+  Search: "Smush" by WPMU DEV
+- UpdraftPlus (free automatic backups)
+  Search: "UpdraftPlus" by UpdraftPlus.com

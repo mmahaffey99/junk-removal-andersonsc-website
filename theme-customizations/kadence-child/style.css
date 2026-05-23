@@ -1,0 +1,588 @@
+/*
+ * Anderson Junk Removal Pros — Kadence Theme Custom CSS
+ * Add this CSS via: WordPress Admin → Appearance → Customize → Additional CSS
+ * OR via a Kadence Child Theme's style.css
+ *
+ * Color Palette:
+ *   Page background:        #FFFFFF
+ *   Alternate section bg:   #F5F5F5
+ *   Primary text:           #1A1A1A
+ *   CTA buttons:            #1C1C1C (background) / #FFFFFF (text)
+ *   Border/divider:         #E0E0E0
+ *   Accent hover:           #333333
+ */
+
+/* ============================================================
+   GLOBAL BASE
+   ============================================================ */
+
+body {
+  background-color: #FFFFFF;
+  color: #1A1A1A;
+  font-size: 17px;
+  line-height: 1.65;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1A1A1A;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+a {
+  color: #1C1C1C;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333333;
+  text-decoration: underline;
+}
+
+hr,
+.section-divider {
+  border: none;
+  border-top: 1px solid #E0E0E0;
+  margin: 40px 0;
+}
+
+/* ============================================================
+   STICKY HEADER
+   ============================================================ */
+
+.site-header,
+.kadence-sticky-header {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #E0E0E0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-phone-button {
+  display: inline-block;
+  background-color: #1C1C1C;
+  color: #FFFFFF !important;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none !important;
+  min-height: 44px;
+  line-height: 1.3;
+  white-space: nowrap;
+  transition: background-color 0.2s ease;
+}
+
+.header-phone-button:hover {
+  background-color: #333333;
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+}
+
+/* ============================================================
+   HERO SECTION
+   ============================================================ */
+
+.hero-section {
+  background-color: #1A1A1A;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 80px 20px;
+  position: relative;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 0;
+}
+
+.hero-section > * {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-section h1 {
+  color: #FFFFFF;
+  font-size: clamp(28px, 5vw, 52px);
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
+.hero-subheadline {
+  color: #F0F0F0;
+  font-size: clamp(16px, 2.5vw, 20px);
+  margin-bottom: 32px;
+  max-width: 600px;
+}
+
+/* ============================================================
+   CTA BUTTONS
+   ============================================================ */
+
+.cta-button,
+.wp-block-button__link,
+.kadence-button {
+  background-color: #1C1C1C !important;
+  color: #FFFFFF !important;
+  font-weight: 700;
+  font-size: 17px;
+  padding: 14px 28px;
+  border-radius: 4px;
+  display: inline-block;
+  min-height: 44px;
+  text-align: center;
+  text-decoration: none !important;
+  border: 2px solid #1C1C1C;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+  cursor: pointer;
+}
+
+.cta-button:hover,
+.wp-block-button__link:hover,
+.kadence-button:hover {
+  background-color: #333333 !important;
+  border-color: #333333 !important;
+  color: #FFFFFF !important;
+}
+
+/* Hero-specific CTA — slightly larger */
+.hero-cta-button {
+  font-size: 18px;
+  padding: 16px 32px;
+}
+
+/* ============================================================
+   TRUST BAR
+   ============================================================ */
+
+.trust-bar {
+  background-color: #F5F5F5;
+  border-top: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0;
+  padding: 20px;
+  text-align: center;
+}
+
+.trust-bar-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.trust-item {
+  font-weight: 600;
+  font-size: 15px;
+  color: #1A1A1A;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.trust-item .checkmark {
+  color: #1C1C1C;
+  font-weight: 700;
+}
+
+/* ============================================================
+   SERVICES SECTION
+   ============================================================ */
+
+.services-section {
+  background-color: #FFFFFF;
+  padding: 64px 20px;
+}
+
+.services-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: clamp(24px, 4vw, 36px);
+}
+
+.service-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  border-radius: 6px;
+  padding: 28px 24px;
+  text-align: center;
+  transition: box-shadow 0.2s ease;
+}
+
+.service-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.service-card .service-icon {
+  font-size: 40px;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.service-card h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.service-card p {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 16px;
+}
+
+.service-card .learn-more {
+  font-weight: 600;
+  text-decoration: underline;
+  color: #1C1C1C;
+}
+
+/* ============================================================
+   ALTERNATE SECTION BACKGROUND
+   ============================================================ */
+
+.section-alt-bg {
+  background-color: #F5F5F5;
+  padding: 64px 20px;
+}
+
+/* ============================================================
+   WHY CHOOSE US
+   ============================================================ */
+
+.why-section {
+  background-color: #F5F5F5;
+  padding: 64px 20px;
+}
+
+.why-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: clamp(24px, 4vw, 36px);
+}
+
+.benefit-column {
+  text-align: center;
+  padding: 20px;
+}
+
+.benefit-column .benefit-icon {
+  font-size: 40px;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.benefit-column h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* ============================================================
+   SERVICE AREAS SECTION
+   ============================================================ */
+
+.areas-section {
+  background-color: #FFFFFF;
+  padding: 64px 20px;
+}
+
+.areas-section h2 {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: clamp(24px, 4vw, 36px);
+}
+
+.areas-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 32px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+  justify-content: center;
+}
+
+.areas-list li {
+  font-size: 16px;
+  color: #1A1A1A;
+}
+
+.areas-note {
+  text-align: center;
+  color: #555;
+  font-style: italic;
+  font-size: 15px;
+}
+
+/* ============================================================
+   FAQ ACCORDION
+   ============================================================ */
+
+.faq-section {
+  background-color: #F5F5F5;
+  padding: 64px 20px;
+}
+
+.faq-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: clamp(24px, 4vw, 36px);
+}
+
+/* Kadence Accordion overrides */
+.kt-accordion-panel-inner {
+  background-color: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.kt-accordion-header-btn {
+  font-weight: 600;
+  font-size: 16px;
+  color: #1A1A1A !important;
+  background-color: #FFFFFF !important;
+  padding: 16px 20px !important;
+}
+
+.kt-accordion-header-btn:hover {
+  background-color: #F5F5F5 !important;
+}
+
+/* ============================================================
+   FINAL CTA SECTION
+   ============================================================ */
+
+.final-cta-section {
+  background-color: #1C1C1C;
+  color: #FFFFFF;
+  padding: 72px 20px;
+  text-align: center;
+}
+
+.final-cta-section h2 {
+  color: #FFFFFF;
+  font-size: clamp(24px, 4vw, 40px);
+  margin-bottom: 24px;
+}
+
+.final-cta-phone {
+  display: inline-block;
+  color: #FFFFFF !important;
+  font-size: clamp(28px, 5vw, 48px);
+  font-weight: 700;
+  text-decoration: none !important;
+  border-bottom: 3px solid rgba(255,255,255,0.4);
+  padding-bottom: 4px;
+  margin-bottom: 20px;
+  transition: border-color 0.2s ease;
+}
+
+.final-cta-phone:hover {
+  border-color: #FFFFFF;
+}
+
+.final-cta-subtext {
+  color: #CCCCCC;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+
+.site-footer {
+  background-color: #1A1A1A;
+  color: #CCCCCC;
+  padding: 40px 20px 24px;
+  font-size: 14px;
+}
+
+.site-footer a {
+  color: #CCCCCC;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: #FFFFFF;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333333;
+  padding-top: 16px;
+  margin-top: 24px;
+  text-align: center;
+  color: #888888;
+}
+
+/* ============================================================
+   WPFORMS OVERRIDES
+   ============================================================ */
+
+.wpforms-container .wpforms-field input,
+.wpforms-container .wpforms-field select,
+.wpforms-container .wpforms-field textarea {
+  border: 1px solid #E0E0E0 !important;
+  border-radius: 4px !important;
+  padding: 12px 14px !important;
+  font-size: 16px !important;
+  width: 100% !important;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  color: #1A1A1A;
+}
+
+.wpforms-container .wpforms-field input:focus,
+.wpforms-container .wpforms-field textarea:focus {
+  border-color: #1C1C1C !important;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(28,28,28,0.15);
+}
+
+.wpforms-container button[type=submit],
+.wpforms-container .wpforms-submit {
+  background-color: #1C1C1C !important;
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+  font-size: 17px !important;
+  padding: 14px 24px !important;
+  border: none !important;
+  border-radius: 4px !important;
+  min-height: 44px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.wpforms-container button[type=submit]:hover,
+.wpforms-container .wpforms-submit:hover {
+  background-color: #333333 !important;
+}
+
+.form-box {
+  background-color: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  border-radius: 6px;
+  padding: 32px 28px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.form-box h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.form-box .form-subtext {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* ============================================================
+   MOBILE-FIRST RESPONSIVE
+   ============================================================ */
+
+/* Mobile base (applies to all, overridden for larger screens) */
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.two-col,
+.three-col,
+.service-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Tablet and up */
+@media (min-width: 640px) {
+  .two-col {
+    flex-direction: row;
+  }
+
+  .two-col > * {
+    flex: 1;
+  }
+
+  .service-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .service-grid > * {
+    flex: 1 1 calc(50% - 12px);
+  }
+}
+
+/* Desktop */
+@media (min-width: 900px) {
+  .three-col {
+    flex-direction: row;
+  }
+
+  .three-col > * {
+    flex: 1;
+  }
+
+  .service-grid > * {
+    flex: 1 1 calc(33.33% - 16px);
+  }
+
+  .hero-section {
+    padding: 100px 20px;
+  }
+}
+
+/* Prevent horizontal scroll on all sizes */
+html, body {
+  overflow-x: hidden;
+}
+
+/* Minimum touch targets on mobile */
+a, button, input[type="submit"] {
+  min-height: 44px;
+}
+
+/* Phone numbers always tappable */
+a[href^="tel"] {
+  display: inline-block;
+  min-height: 44px;
+  line-height: 44px;
+}
+
+/* Force full-width form fields on mobile */
+@media (max-width: 639px) {
+  .wpforms-container .wpforms-field {
+    width: 100% !important;
+  }
+
+  .header-phone-button {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+
+  .hero-section {
+    padding: 48px 16px;
+  }
+}
