@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 200" width="760" height="200">
+  <defs>
+    <style>
+      .wordmark { font-family: Arial, Helvetica, sans-serif; font-weight: 800; }
+      .tagline { font-family: Arial, Helvetica, sans-serif; font-weight: 600; letter-spacing: 3px; }
+    </style>
+  </defs>
+
+  <!-- background -->
+  <rect width="760" height="200" fill="#F5F1E8"/>
+
+  <!-- badge mark -->
+  <g transform="translate(28,28)">
+    <circle cx="72" cy="72" r="72" fill="#1F3D2B"/>
+    <circle cx="72" cy="72" r="72" fill="none" stroke="#F5F1E8" stroke-width="4"/>
+
+    <!-- junk box -->
+    <rect x="36" y="88" width="72" height="34" rx="4" fill="#F5F1E8"/>
+    <rect x="36" y="88" width="72" height="10" rx="4" fill="#E8792E"/>
+
+    <!-- upward removal arrow, breaking free of the box -->
+    <path d="M72 84 L72 26 M72 26 L48 50 M72 26 L96 50"
+          fill="none" stroke="#E8792E" stroke-width="12"
+          stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- motion lines -->
+    <path d="M18 60 L34 60 M14 74 L30 74 M18 88 L30 88"
+          stroke="#F5F1E8" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  </g>
+
+  <!-- wordmark -->
+  <g transform="translate(200,0)">
+    <text x="0" y="92" class="wordmark" font-size="42" fill="#2B2620">ANDERSON</text>
+    <text x="0" y="138" class="wordmark" font-size="38" fill="#1F3D2B">JUNK REMOVAL PROS</text>
+    <text x="2" y="166" class="tagline" font-size="15" fill="#E8792E">FAST&#160;&#160;•&#160;&#160;LOCAL&#160;&#160;•&#160;&#160;GONE</text>
+  </g>
+</svg>

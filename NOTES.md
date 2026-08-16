@@ -56,24 +56,27 @@ The exact wording should reflect your actual business model. Consult the fulfill
 
 ## Logo Files
 
-**Logo files were not provided at the time this repo was built.** When you have final logo files:
+**Both logo files are in `assets/` in this repo.**
 
-1. The color palette for the brand is:
-   - Primary green: `#1F3D2B`
-   - Accent orange: `#E8792E`
-   - Background/cream: `#F5F1E8`
-   - Dark text: `#2B2620`
+| File | Use |
+|---|---|
+| `assets/logo-primary.svg` | Full logo (badge + wordmark) — website header, email signature |
+| `assets/logo-icon.svg` | Badge mark only (144×144, transparent background) — favicon, small spaces |
 
-2. Required formats:
-   - `logo-primary.svg` — full logo with business name (for website header)
-   - `logo-icon.svg` — icon/mark only (for favicon, small spaces)
+**Brand color palette:**
+- Primary green: `#1F3D2B`
+- Accent orange: `#E8792E`
+- Background/cream: `#F5F1E8`
+- Dark text: `#2B2620`
 
-3. Upload location: WordPress Admin → Media Library → upload both files
-   - Primary logo path: `https://andersonjunkremovalpros.com/wp-content/uploads/logo-primary.svg`
-   - Update the Kadence Header Builder to use the uploaded logo file
-   - Update the seo/schema.json `logo` field with the final upload URL
+**How to install in WordPress:**
 
-4. For the site favicon: use the icon version (`logo-icon.svg`) — set via Kadence → General → Site Identity → Site Icon, or via WordPress Admin → Appearance → Customize → Site Identity
+1. **Upload both files:** WordPress Admin → Media Library → Add New → upload `logo-primary.svg` and `logo-icon.svg`
+2. **Set the header logo:** Kadence → Header Builder → Logo element → select `logo-primary.svg`
+3. **Set the favicon:** WordPress Admin → Appearance → Customize → Site Identity → Site Icon → select `logo-icon.svg`
+4. **Update schema.json:** The `logo` field in `seo/schema.json` section `1_LocalBusiness_sitewide` already references `https://andersonjunkremovalpros.com/wp-content/uploads/logo-primary.svg` — confirm the Media Library URL matches after upload (it may append a size suffix)
+
+**SVG note:** Some WordPress installs block SVG uploads by default. If you see an error, install the free plugin **"Safe SVG"** — it sanitizes and enables SVG uploads safely.
 
 ---
 
