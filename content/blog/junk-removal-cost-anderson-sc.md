@@ -73,6 +73,6 @@ At Anderson Junk Removal Pros, we provide free, no-pressure estimates. You descr
 
 ## Ready to Get Your Free Estimate?
 
-If you've been putting off a junk removal project in Anderson because you weren't sure what it would cost, now you have a better sense of what to expect. The next step is easy — give us a call at CALLRAIL_PLACEHOLDER or fill out our quick online form. We'll get you a straight answer on price within minutes, and we can often schedule your pickup within 1–2 days.
+If you've been putting off a junk removal project in Anderson because you weren't sure what it would cost, now you have a better sense of what to expect. The next step is easy — give us a call at (843) 642-8417 or fill out our quick online form. We'll get you a straight answer on price within minutes, and we can often schedule your pickup within 1–2 days.
 
 *Anderson Junk Removal Pros serves Anderson, Clemson, Easley, Seneca, Belton, Williamston, Pendleton, Iva, and Walhalla, SC.*

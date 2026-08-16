@@ -41,7 +41,7 @@ Many homes in the Anderson area also have outbuildings, detached garages, and st
 
 We handle estate cleanouts in Anderson, SC from first call to completed property:
 
-1. **Reach Out** — Call CALLRAIL_PLACEHOLDER or fill out our form. We'll listen to your situation and ask a few gentle questions about the property and what needs to be removed.
+1. **Reach Out** — Call (843) 642-8417 or fill out our form. We'll listen to your situation and ask a few gentle questions about the property and what needs to be removed.
 2. **Walkthrough Estimate** — For estate cleanouts, we prefer to do a walkthrough of the property (or review photos) before quoting. This allows us to give you the most accurate, fair price for the scope of the job.
 3. **Scheduling** — We work around your timeline and the estate's needs. We can often begin within 1–2 days of your initial call.
 4. **Sort and Identify** — Before we begin hauling, our crew walks through with you (or a designated family member) to identify items to keep, donate, or dispose of. We follow your lead completely.
@@ -69,8 +69,8 @@ Items that can't be donated due to condition or type are disposed of responsibly
 
 ## Ready to Schedule an Estate Cleanout in Anderson?
 
-You don't have to face this task alone. Anderson Junk Removal Pros handles estate cleanouts in Anderson, SC with care, efficiency, and respect. Call us at CALLRAIL_PLACEHOLDER or fill out our quick form and we'll be in touch to schedule a walkthrough estimate at no charge or obligation.
+You don't have to face this task alone. Anderson Junk Removal Pros handles estate cleanouts in Anderson, SC with care, efficiency, and respect. Call us at (843) 642-8417 or fill out our quick form and we'll be in touch to schedule a walkthrough estimate at no charge or obligation.
 
-**[Call for a Free Quote: CALLRAIL_PLACEHOLDER → tel:CALLRAIL_PLACEHOLDER]**
+**[Call for a Free Quote: (843) 642-8417 → tel:+18436428417]**
 
 *We respond to all form submissions within 1 business day.*

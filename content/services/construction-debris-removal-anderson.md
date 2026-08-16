@@ -43,7 +43,7 @@ Keeping your worksite clear of debris is also a safety issue. Piles of drywall, 
 
 Here's how construction debris removal works with our Anderson team:
 
-1. **Call or Fill Out the Form** — Contact us at CALLRAIL_PLACEHOLDER or online. Describe your project type and the approximate amount of debris.
+1. **Call or Fill Out the Form** — Contact us at (843) 642-8417 or online. Describe your project type and the approximate amount of debris.
 2. **Free Estimate** — Construction debris varies widely in weight and volume. We'll give you an upfront estimate based on your description or a quick site photo.
 3. **Book Your Appointment** — We schedule around your project timeline. Need us in between contractor visits? We work with your schedule.
 4. **We Arrive Prepared** — Our crew brings the right equipment to handle heavy, bulky, and sharp materials safely.
@@ -64,14 +64,14 @@ Absolutely — in fact, many of our contractor clients in Anderson set up recurr
 We work with both. If you're a contractor in Anderson, Easley, Clemson, or the surrounding area who needs a reliable debris removal partner, we'd love to talk. We're punctual, professional, and understand that your schedule and your clients' trust are on the line.
 
 ### How much does construction debris removal cost in Anderson, SC?
-Pricing is based on volume and material type. Heavier materials (concrete, tile) cost more per volume than lighter ones (drywall, lumber). We always provide a free, honest estimate before we begin — call CALLRAIL_PLACEHOLDER or fill out our form to get yours.
+Pricing is based on volume and material type. Heavier materials (concrete, tile) cost more per volume than lighter ones (drywall, lumber). We always provide a free, honest estimate before we begin — call (843) 642-8417 or fill out our form to get yours.
 
 ---
 
 ## Keep Your Worksite Clean — Call Anderson Junk Removal Pros
 
-Don't let debris slow down your project. Anderson Junk Removal Pros provides fast, reliable construction debris removal throughout Anderson, SC and surrounding communities. Call CALLRAIL_PLACEHOLDER for a free estimate or fill out our quick form below. We're often available same-day or next-day, and we work around your project schedule.
+Don't let debris slow down your project. Anderson Junk Removal Pros provides fast, reliable construction debris removal throughout Anderson, SC and surrounding communities. Call (843) 642-8417 for a free estimate or fill out our quick form below. We're often available same-day or next-day, and we work around your project schedule.
 
-**[Call for a Free Quote: CALLRAIL_PLACEHOLDER → tel:CALLRAIL_PLACEHOLDER]**
+**[Call for a Free Quote: (843) 642-8417 → tel:+18436428417]**
 
 *We respond to all form submissions within 1 business day.*

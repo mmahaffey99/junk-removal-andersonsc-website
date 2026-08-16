@@ -75,6 +75,6 @@ A few habits help Anderson homeowners avoid letting junk pile up to overwhelming
 
 Junk removal is much easier — and often cheaper — when you address it before it reaches overwhelming proportions. Whether it's a once-a-year cleanout, a post-storm yard pickup, or an estate cleanout, Anderson Junk Removal Pros is here to help whenever you're ready.
 
-Give us a call at CALLRAIL_PLACEHOLDER or fill out our quick online form. We serve Anderson and all of the surrounding Upstate South Carolina area, and we can typically schedule your pickup within 1–2 days.
+Give us a call at (843) 642-8417 or fill out our quick online form. We serve Anderson and all of the surrounding Upstate South Carolina area, and we can typically schedule your pickup within 1–2 days.
 
 *Anderson Junk Removal Pros — serving Anderson, Clemson, Easley, Seneca, Belton, Williamston, Pendleton, Iva, and Walhalla, SC.*

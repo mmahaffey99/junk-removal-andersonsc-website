@@ -42,7 +42,7 @@ Properties near Lake Hartwell and other water features in the region also face p
 
 Here's how yard waste removal works from start to finished yard:
 
-1. **Contact Us** — Call CALLRAIL_PLACEHOLDER or fill out our form. Describe the type and approximate volume of yard waste you need removed.
+1. **Contact Us** — Call (843) 642-8417 or fill out our form. Describe the type and approximate volume of yard waste you need removed.
 2. **Free Estimate** — We'll give you a clear, upfront price. For larger jobs, a quick walkthrough or photos helps us give the most accurate number.
 3. **Schedule Your Appointment** — We work around your schedule. Same-day and next-day service is frequently available in Anderson.
 4. **We Arrive and Assess** — Our crew reviews the yard waste before loading to confirm everything is covered in your estimate.
@@ -63,14 +63,14 @@ Absolutely. Storm debris cleanup is one of our most frequent requests, especiall
 We remove cut tree sections and limbs, but stump grinding requires specialized equipment and is a separate service we refer out. If you need a stump ground down, we're happy to point you toward a reputable local tree service in Anderson that handles stump grinding.
 
 ### How is yard waste removal priced?
-Pricing is based on the volume of material and how far we have to carry it from where it sits to the truck. We always provide a free, no-obligation estimate before beginning work. Call CALLRAIL_PLACEHOLDER to get a quick quote.
+Pricing is based on the volume of material and how far we have to carry it from where it sits to the truck. We always provide a free, no-obligation estimate before beginning work. Call (843) 642-8417 to get a quick quote.
 
 ---
 
 ## Ready for a Clean Yard?
 
-Stop looking at that brush pile and wondering when you'll have time to deal with it. Anderson Junk Removal Pros handles yard waste removal throughout Anderson, SC and surrounding communities. Call CALLRAIL_PLACEHOLDER or fill out our form for a free estimate — we're often available same-day or next-day.
+Stop looking at that brush pile and wondering when you'll have time to deal with it. Anderson Junk Removal Pros handles yard waste removal throughout Anderson, SC and surrounding communities. Call (843) 642-8417 or fill out our form for a free estimate — we're often available same-day or next-day.
 
-**[Call for a Free Quote: CALLRAIL_PLACEHOLDER → tel:CALLRAIL_PLACEHOLDER]**
+**[Call for a Free Quote: (843) 642-8417 → tel:+18436428417]**
 
 *We respond to all form submissions within 1 business day.*

@@ -41,7 +41,7 @@ Anderson's strong rental market also creates frequent turnover situations where 
 
 Here's how appliance removal works from first call to clean space:
 
-1. **Contact Us** — Call CALLRAIL_PLACEHOLDER or fill out our form. Tell us what appliances you need removed and where they're located in your home.
+1. **Contact Us** — Call (843) 642-8417 or fill out our form. Tell us what appliances you need removed and where they're located in your home.
 2. **Free Estimate** — We'll give you an honest, upfront price based on the number and type of appliances. No hidden fees.
 3. **Schedule Your Appointment** — We work around your schedule with same-day and next-day availability across Anderson.
 4. **We Arrive Prepared** — Our crew brings the right dollies, straps, and equipment to safely move heavy appliances without damaging floors or doorframes.
@@ -62,14 +62,14 @@ Yes, whenever possible. Scrap metal from appliances — including the steel drum
 Not for us. We work with certified disposal facilities that handle refrigerant recovery properly. This is actually one of the key reasons to use a professional appliance removal service in Anderson rather than trying to haul it yourself — improper disposal of refrigerants is illegal under the Clean Air Act and carries stiff penalties.
 
 ### How much does appliance removal cost in Anderson, SC?
-Pricing depends on the number of appliances, their size and weight, and how easy they are to access. Appliances in tight spaces or on upper floors may require additional effort. We always give you a free, honest estimate before we begin any work — call CALLRAIL_PLACEHOLDER to get yours.
+Pricing depends on the number of appliances, their size and weight, and how easy they are to access. Appliances in tight spaces or on upper floors may require additional effort. We always give you a free, honest estimate before we begin any work — call (843) 642-8417 to get yours.
 
 ---
 
 ## Ready to Get Rid of That Old Appliance?
 
-Don't let an old appliance take up valuable space in your home or garage any longer. Anderson Junk Removal Pros provides fast, responsible appliance removal throughout Anderson, SC and surrounding areas. Call CALLRAIL_PLACEHOLDER or fill out our quick form for a free, no-obligation estimate.
+Don't let an old appliance take up valuable space in your home or garage any longer. Anderson Junk Removal Pros provides fast, responsible appliance removal throughout Anderson, SC and surrounding areas. Call (843) 642-8417 or fill out our quick form for a free, no-obligation estimate.
 
-**[Call for a Free Quote: CALLRAIL_PLACEHOLDER → tel:CALLRAIL_PLACEHOLDER]**
+**[Call for a Free Quote: (843) 642-8417 → tel:+18436428417]**
 
 *We respond to all form submissions within 1 business day.*

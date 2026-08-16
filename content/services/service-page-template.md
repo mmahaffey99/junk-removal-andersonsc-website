@@ -52,7 +52,7 @@ When you schedule [specific service] with Anderson Junk Removal Pros, here's wha
 
 Here's exactly how we handle [specific service] from start to finish:
 
-1. **Contact Us** — Call CALLRAIL_PLACEHOLDER or fill out our online form. We'll ask a few quick questions about your project.
+1. **Contact Us** — Call (843) 642-8417 or fill out our online form. We'll ask a few quick questions about your project.
 2. **Free Estimate** — We provide a no-obligation estimate based on what you've described or photos you send us.
 3. **Schedule Your Appointment** — We'll find a time that works for you — same-day and next-day slots are often available.
 4. **We Arrive and Assess** — Our crew shows up on time and reviews the job before we begin.
@@ -79,9 +79,9 @@ Here's exactly how we handle [specific service] from start to finish:
 
 ## Ready to Schedule [Specific Service] in Anderson?
 
-Don't let [the problem this service solves] sit any longer. Anderson Junk Removal Pros is ready to help — give us a call at CALLRAIL_PLACEHOLDER or fill out our quick online form below for a free, no-obligation estimate. We serve Anderson and all surrounding areas in Upstate South Carolina.
+Don't let [the problem this service solves] sit any longer. Anderson Junk Removal Pros is ready to help — give us a call at (843) 642-8417 or fill out our quick online form below for a free, no-obligation estimate. We serve Anderson and all surrounding areas in Upstate South Carolina.
 
-**[Large CTA Button: Call for a Free Quote: CALLRAIL_PLACEHOLDER → tel:CALLRAIL_PLACEHOLDER]**
+**[Large CTA Button: Call for a Free Quote: (843) 642-8417 → tel:+18436428417]**
 
 *Or fill out our contact form for a prompt response within 1 business day.*
 

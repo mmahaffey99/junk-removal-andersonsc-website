@@ -41,7 +41,7 @@ For residents near Lake Hartwell and other popular areas in the Anderson, SC reg
 
 Here's how furniture removal works with Anderson Junk Removal Pros:
 
-1. **Contact Us** — Call CALLRAIL_PLACEHOLDER or fill out our online form. Let us know what furniture you need removed and roughly how much there is.
+1. **Contact Us** — Call (843) 642-8417 or fill out our online form. Let us know what furniture you need removed and roughly how much there is.
 2. **Free Estimate** — We'll provide an upfront, no-obligation estimate based on volume and item type. No surprises on your final bill.
 3. **Schedule Your Appointment** — Pick a time that works for you. We often have same-day and next-day availability throughout Anderson.
 4. **We Arrive Ready to Work** — Our crew shows up on time with the truck, equipment, and manpower needed for your specific job.
@@ -68,8 +68,8 @@ Pricing is based on how many items you have, their size, and how easy they are t
 
 ## Ready to Schedule Furniture Removal in Anderson?
 
-Stop working around that furniture you've been meaning to get rid of. Anderson Junk Removal Pros is ready to make it disappear. Call us at CALLRAIL_PLACEHOLDER for a free, no-pressure estimate or fill out our quick form below. We serve Anderson, Clemson, Easley, Seneca, Belton, and all surrounding Upstate South Carolina communities.
+Stop working around that furniture you've been meaning to get rid of. Anderson Junk Removal Pros is ready to make it disappear. Call us at (843) 642-8417 for a free, no-pressure estimate or fill out our quick form below. We serve Anderson, Clemson, Easley, Seneca, Belton, and all surrounding Upstate South Carolina communities.
 
-**[Call for a Free Quote: CALLRAIL_PLACEHOLDER → tel:CALLRAIL_PLACEHOLDER]**
+**[Call for a Free Quote: (843) 642-8417 → tel:+18436428417]**
 
 *We respond to all form submissions within 1 business day.*

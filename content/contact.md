@@ -3,7 +3,7 @@
 **WordPress Page Title:** Contact Us | Anderson Junk Removal Pros
 **Yoast Focus Keyword:** junk removal Anderson SC contact
 **Meta Title:** Contact Anderson Junk Removal Pros | Anderson, SC
-**Meta Description:** Get a free estimate for junk removal in Anderson, SC. Call CALLRAIL_PLACEHOLDER or fill out our quick form. We respond within 1 business day.
+**Meta Description:** Get a free estimate for junk removal in Anderson, SC. Call (843) 642-8417 or fill out our quick form. We respond within 1 business day.
 
 ---
 
@@ -36,8 +36,8 @@ We make it easy to get in touch. Whether you're ready to schedule a pickup or ju
 ### RIGHT COLUMN — Contact Details
 
 **Phone:**
-CALLRAIL_PLACEHOLDER
-`<a href="tel:CALLRAIL_PLACEHOLDER">CALLRAIL_PLACEHOLDER</a>`
+(843) 642-8417
+`<a href="tel:+18436428417">(843) 642-8417</a>`
 *Tap to call — we answer during business hours and return all messages promptly.*
 
 ---

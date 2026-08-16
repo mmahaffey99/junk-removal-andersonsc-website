@@ -76,6 +76,6 @@ For anything beyond a small, light, easily accessible load of items, professiona
 
 If you're on the fence, the easiest thing to do is just get a quote. It costs you nothing, and once you see the number, you'll have the information you need to make the right call.
 
-Anderson Junk Removal Pros offers free, no-pressure estimates for junk removal throughout Anderson, SC and the surrounding Upstate South Carolina area. Call us at CALLRAIL_PLACEHOLDER or fill out our quick online form and we'll get back to you within 1 business day.
+Anderson Junk Removal Pros offers free, no-pressure estimates for junk removal throughout Anderson, SC and the surrounding Upstate South Carolina area. Call us at (843) 642-8417 or fill out our quick online form and we'll get back to you within 1 business day.
 
 *Serving Anderson, Clemson, Easley, Seneca, Belton, Williamston, Pendleton, Iva, and Walhalla, SC.*
