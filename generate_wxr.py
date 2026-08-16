@@ -3,7 +3,11 @@
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
 from wp_builder import (homepage_content, contact_content, privacy_content,
-                         service_page, blog_post_1, blog_post_2, blog_post_3,
+                         about_content, service_page,
+                         clemson_page_content, easley_page_content, seneca_page_content,
+                         blog_post_1, blog_post_2, blog_post_3,
+                         blog_post_4, blog_post_5, blog_post_6, blog_post_7,
+                         blog_post_8, blog_post_9, blog_post_10,
                          SERVICES)
 
 def cdata(text):
@@ -80,12 +84,46 @@ def build_wxr():
         items.append(item(d["h1"], slug, content, "page",
                           d["seo_title"], d["seo_desc"], d["seo_kw"], pid))
 
+    # About page
+    pid += 1
+    items.append(item(
+        "About Anderson Junk Removal Pros", "about", about_content(), "page",
+        "About Anderson Junk Removal Pros | Anderson, SC",
+        "Anderson Junk Removal Pros is a local junk removal service in Anderson, SC. Licensed, insured, honest pricing. Serving Anderson County and Upstate SC.",
+        "junk removal Anderson SC", pid
+    ))
+
+    # City pages — Tier 1
+    pid += 1
+    items.append(item(
+        "Junk Removal in Clemson, SC", "junk-removal-clemson-sc", clemson_page_content(), "page",
+        "Junk Removal Clemson SC | Anderson Junk Removal Pros",
+        "Professional junk removal in Clemson, SC. Furniture, appliances, yard waste, and more. Serving Clemson and Lake Hartwell area. Free estimates. Call (843) 642-8417.",
+        "junk removal Clemson SC", pid
+    ))
+
+    pid += 1
+    items.append(item(
+        "Junk Removal in Easley, SC", "junk-removal-easley-sc", easley_page_content(), "page",
+        "Junk Removal Easley SC | Anderson Junk Removal Pros",
+        "Professional junk removal in Easley, SC. Furniture, appliances, yard waste, estate cleanouts, and more. Serving Easley and Pickens County. Free estimates. Call (843) 642-8417.",
+        "junk removal Easley SC", pid
+    ))
+
+    pid += 1
+    items.append(item(
+        "Junk Removal in Seneca, SC", "junk-removal-seneca-sc", seneca_page_content(), "page",
+        "Junk Removal Seneca SC | Anderson Junk Removal Pros",
+        "Professional junk removal in Seneca, SC. Serving Seneca, Lake Keowee, and western Oconee County. Furniture, appliances, yard waste. Free estimates. Call (843) 642-8417.",
+        "junk removal Seneca SC", pid
+    ))
+
     # Contact
     pid += 1
     items.append(item(
         "Contact Us", "contact", contact_content(), "page",
         "Contact Anderson Junk Removal Pros | Anderson, SC",
-        "Get a free estimate for junk removal in Anderson, SC. Call CALLRAIL_PLACEHOLDER or fill out our quick form. We respond within 1 business day.",
+        "Get a free estimate for junk removal in Anderson, SC. Call (843) 642-8417 or fill out our quick form. We respond within 1 business day.",
         "junk removal Anderson SC contact", pid
     ))
 
@@ -126,6 +164,76 @@ def build_wxr():
         "DIY vs. Professional Junk Removal in Anderson, SC — What to Know",
         "Thinking about hauling junk yourself in Anderson, SC? Read this honest breakdown of DIY vs. hiring a professional before you decide.",
         "junk removal DIY vs professional Anderson SC", pid, category="Blog"
+    ))
+
+    # Blog post 4
+    pid += 1
+    items.append(item(
+        "Where to Take Junk in Anderson County, SC (Your Disposal Options Explained)",
+        "where-to-take-junk-anderson-county", blog_post_4(), "post",
+        "Where to Take Junk in Anderson County, SC — Disposal Options",
+        "Where do you take junk in Anderson County, SC? This guide covers the landfill, recycling, donation options, and when hiring a junk removal service makes sense.",
+        "where to take junk Anderson County SC", pid, category="Blog"
+    ))
+
+    # Blog post 5
+    pid += 1
+    items.append(item(
+        "How Often Should You Clean Out Your Garage in Anderson, SC?",
+        "how-often-clean-garage-anderson", blog_post_5(), "post",
+        "How Often Should You Clean Your Garage in Anderson, SC?",
+        "How often should Anderson, SC homeowners clean out their garage? This guide covers timing, warning signs, and what to do with junk that won't fit in the trash.",
+        "how often clean garage Anderson SC", pid, category="Blog"
+    ))
+
+    # Blog post 6
+    pid += 1
+    items.append(item(
+        "Anderson County Bulk Trash Pickup vs. Junk Removal: What's the Difference?",
+        "anderson-county-bulk-trash-vs-junk-removal", blog_post_6(), "post",
+        "Anderson County Bulk Trash vs. Junk Removal — What's the Difference?",
+        "What's the difference between Anderson County bulk trash pickup and hiring a junk removal service? This guide explains both so you can choose the right option.",
+        "Anderson County bulk trash junk removal", pid, category="Blog"
+    ))
+
+    # Blog post 7
+    pid += 1
+    items.append(item(
+        "How to Dispose of an Old Refrigerator in Anderson, SC",
+        "how-to-dispose-old-refrigerator-anderson-sc", blog_post_7(), "post",
+        "How to Dispose of an Old Refrigerator in Anderson, SC",
+        "How do you get rid of an old refrigerator in Anderson, SC? This guide covers legal disposal options — county programs, utility rebates, and appliance removal.",
+        "dispose old refrigerator Anderson SC", pid, category="Blog"
+    ))
+
+    # Blog post 8
+    pid += 1
+    items.append(item(
+        "What to Do With Yard Debris After a Storm in Upstate SC",
+        "yard-debris-after-storm-upstate-sc", blog_post_8(), "post",
+        "Yard Debris After a Storm in Upstate SC — What to Do",
+        "After a storm in Anderson or Upstate SC, what do you do with fallen limbs and debris? This guide covers safety, cleanup options, and when to call for haul-away.",
+        "yard debris storm cleanup Upstate SC", pid, category="Blog"
+    ))
+
+    # Blog post 9
+    pid += 1
+    items.append(item(
+        "Estate Cleanout Checklist for Anderson, SC Homeowners",
+        "estate-cleanout-checklist-anderson-sc", blog_post_9(), "post",
+        "Estate Cleanout Checklist for Anderson, SC Homeowners",
+        "Planning an estate cleanout in Anderson, SC? This checklist covers what to do first, what to keep, what to donate, and how to handle the haul-away efficiently.",
+        "estate cleanout checklist Anderson SC", pid, category="Blog"
+    ))
+
+    # Blog post 10
+    pid += 1
+    items.append(item(
+        "Junk Removal vs. Dumpster Rental in Anderson, SC: Which One Is Right for You?",
+        "junk-removal-vs-dumpster-rental-anderson", blog_post_10(), "post",
+        "Junk Removal vs. Dumpster Rental in Anderson, SC — Which to Choose?",
+        "Deciding between junk removal and dumpster rental in Anderson, SC? This honest comparison covers cost, convenience, timing, and which option fits your project.",
+        "junk removal vs dumpster rental Anderson SC", pid, category="Blog"
     ))
 
     wxr = f"""<?xml version="1.0" encoding="UTF-8" ?>

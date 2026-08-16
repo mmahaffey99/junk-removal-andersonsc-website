@@ -1,241 +1,417 @@
 {
   "_instructions": {
-    "step1": "Copy the LocalBusiness schema below and paste it into the 'Scripts in Header' field in WordPress Admin → Settings → Insert Headers and Footers. Wrap it in <script type='application/ld+json'> tags.",
-    "step2": "Copy the FAQPage schema below and paste it in the same field, also wrapped in <script type='application/ld+json'> tags.",
-    "step3": "Replace CALLRAIL_PLACEHOLDER with your real tracking number before launch.",
-    "step4": "Replace https://www.YOUR-DOMAIN-PLACEHOLDER.com with your actual domain.",
-    "pasteFormat": "See the 'How to Paste' section at the bottom of this file for the exact HTML to copy."
+    "overview": "This file contains all JSON-LD schema blocks for Anderson Junk Removal Pros. Each block is inserted into WordPress via WPCode (preferred) or Insert Headers and Footers plugin.",
+    "tool": "WPCode (free plugin) — WordPress Admin → Code Snippets → Add Snippet → Header & Footer → paste each block into the <head> section. Or use Insert Headers and Footers: WordPress Admin → Settings → Insert Headers and Footers → Scripts in Header.",
+    "sitewide_block": "LocalBusiness schema goes on every page — add it to the global header injection field.",
+    "page_specific_blocks": "FAQPage, Service, and BreadcrumbList schemas are page-specific. Use WPCode's 'Insert on specific pages' condition to target the correct URL for each.",
+    "do_not_add": "DO NOT add AggregateRating or Review schema — there are no real verified reviews yet. Fake review schema is a Google structured data policy violation with manual penalty risk.",
+    "validate": "After launch, validate each page at https://search.google.com/test/rich-results and https://validator.schema.org/"
   },
 
-  "LocalBusiness": {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Anderson Junk Removal Pros",
-    "description": "Professional junk removal serving Anderson, SC and surrounding areas. Furniture removal, appliance removal, yard waste removal, estate cleanouts, and construction debris removal.",
-    "telephone": "CALLRAIL_PLACEHOLDER",
-    "url": "https://www.YOUR-DOMAIN-PLACEHOLDER.com",
-    "logo": "https://www.YOUR-DOMAIN-PLACEHOLDER.com/wp-content/uploads/logo.png",
-    "image": "https://www.YOUR-DOMAIN-PLACEHOLDER.com/wp-content/uploads/hero-junk-removal-anderson-sc.jpg",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Anderson",
-      "addressRegion": "SC",
-      "addressCountry": "US"
+  "1_LocalBusiness_sitewide": {
+    "_where": "Every page — add to global <head> via WPCode or Insert Headers and Footers",
+    "_note": "Update sameAs URLs once GBP, Facebook, and Yelp profiles are created",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Anderson Junk Removal Pros",
+      "description": "Professional junk removal serving Anderson, SC and surrounding areas. Furniture removal, appliance removal, yard waste removal, estate cleanouts, and construction debris removal.",
+      "telephone": "(843) 642-8417",
+      "url": "https://andersonjunkremovalpros.com",
+      "logo": "https://andersonjunkremovalpros.com/wp-content/uploads/logo-primary.svg",
+      "image": "https://andersonjunkremovalpros.com/wp-content/uploads/hero-junk-removal-anderson-sc.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Anderson",
+        "addressRegion": "SC",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "34.5034",
+        "longitude": "-82.6501"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Anderson", "containedInPlace": { "@type": "State", "name": "South Carolina" } },
+        { "@type": "City", "name": "Clemson", "containedInPlace": { "@type": "State", "name": "South Carolina" } },
+        { "@type": "City", "name": "Easley", "containedInPlace": { "@type": "State", "name": "South Carolina" } },
+        { "@type": "City", "name": "Seneca", "containedInPlace": { "@type": "State", "name": "South Carolina" } },
+        { "@type": "City", "name": "Belton", "containedInPlace": { "@type": "State", "name": "South Carolina" } },
+        { "@type": "City", "name": "Honea Path", "containedInPlace": { "@type": "State", "name": "South Carolina" } },
+        { "@type": "City", "name": "Williamston", "containedInPlace": { "@type": "State", "name": "South Carolina" } },
+        { "@type": "City", "name": "Pendleton", "containedInPlace": { "@type": "State", "name": "South Carolina" } },
+        { "@type": "City", "name": "Iva", "containedInPlace": { "@type": "State", "name": "South Carolina" } },
+        { "@type": "City", "name": "Walhalla", "containedInPlace": { "@type": "State", "name": "South Carolina" } }
+      ],
+      "serviceType": "Junk Removal",
+      "priceRange": "$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+          "opens": "07:00",
+          "closes": "19:00"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Junk Removal Services",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Furniture Removal", "url": "https://andersonjunkremovalpros.com/furniture-removal-anderson/" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Appliance Removal", "url": "https://andersonjunkremovalpros.com/appliance-removal-anderson/" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Yard Waste Removal", "url": "https://andersonjunkremovalpros.com/yard-waste-removal-anderson/" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Estate Cleanouts", "url": "https://andersonjunkremovalpros.com/estate-cleanouts-anderson/" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Construction Debris Removal", "url": "https://andersonjunkremovalpros.com/construction-debris-removal-anderson/" } }
+        ]
+      },
+      "sameAs": [
+        "[TODO: add Google Business Profile URL once created]",
+        "[TODO: add Facebook Page URL once created]",
+        "[TODO: add Yelp listing URL once created]"
+      ]
     },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "34.5034",
-      "longitude": "-82.6501"
-    },
-    "areaServed": [
-      {
-        "@type": "City",
-        "name": "Anderson",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "South Carolina"
-        }
-      },
-      {
-        "@type": "City",
-        "name": "Clemson",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "South Carolina"
-        }
-      },
-      {
-        "@type": "City",
-        "name": "Seneca",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "South Carolina"
-        }
-      },
-      {
-        "@type": "City",
-        "name": "Easley",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "South Carolina"
-        }
-      },
-      {
-        "@type": "City",
-        "name": "Belton",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "South Carolina"
-        }
-      },
-      {
-        "@type": "City",
-        "name": "Honea Path",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "South Carolina"
-        }
-      },
-      {
-        "@type": "City",
-        "name": "Williamston",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "South Carolina"
-        }
-      },
-      {
-        "@type": "City",
-        "name": "Pendleton",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "South Carolina"
-        }
-      },
-      {
-        "@type": "City",
-        "name": "Iva",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "South Carolina"
-        }
-      },
-      {
-        "@type": "City",
-        "name": "Walhalla",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "South Carolina"
-        }
-      }
-    ],
-    "serviceType": "Junk Removal",
-    "priceRange": "$$",
-    "openingHours": "Mo-Sa 07:00-19:00",
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Junk Removal Services",
-      "itemListElement": [
+    "paste_html": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"LocalBusiness\",\n  \"name\": \"Anderson Junk Removal Pros\",\n  \"description\": \"Professional junk removal serving Anderson, SC and surrounding areas. Furniture removal, appliance removal, yard waste removal, estate cleanouts, and construction debris removal.\",\n  \"telephone\": \"(843) 642-8417\",\n  \"url\": \"https://andersonjunkremovalpros.com\",\n  \"logo\": \"https://andersonjunkremovalpros.com/wp-content/uploads/logo-primary.svg\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Anderson\",\n    \"addressRegion\": \"SC\",\n    \"addressCountry\": \"US\"\n  },\n  \"geo\": {\n    \"@type\": \"GeoCoordinates\",\n    \"latitude\": \"34.5034\",\n    \"longitude\": \"-82.6501\"\n  },\n  \"areaServed\": [\"Anderson\", \"Clemson\", \"Easley\", \"Seneca\", \"Belton\", \"Honea Path\", \"Williamston\", \"Pendleton\", \"Iva\", \"Walhalla\"],\n  \"serviceType\": \"Junk Removal\",\n  \"priceRange\": \"$$\",\n  \"openingHours\": \"Mo-Sa 07:00-19:00\"\n}\n</script>"
+  },
+
+  "2_FAQPage_homepage": {
+    "_where": "Homepage only (/)",
+    "_condition": "In WPCode: set 'Insert on specific pages' → Page URL contains '/' (homepage) or use 'Front Page' condition",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
         {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Furniture Removal",
-            "url": "https://www.YOUR-DOMAIN-PLACEHOLDER.com/furniture-removal-anderson/"
+          "@type": "Question",
+          "name": "How much does junk removal cost in Anderson, SC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Junk removal pricing in Anderson, SC depends on volume (how much space your items take up in the truck), item type, and accessibility. We provide free, no-obligation estimates before any work begins. Call us at (843) 642-8417 or fill out our online form to get an honest price for your specific job."
           }
         },
         {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Appliance Removal",
-            "url": "https://www.YOUR-DOMAIN-PLACEHOLDER.com/appliance-removal-anderson/"
+          "@type": "Question",
+          "name": "How often should I get junk removal done in Anderson?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most Anderson homeowners schedule junk removal once or twice a year, often tied to seasonal cleanouts or home projects. If clutter has built up to the point where it's affecting how you use your space, it's time to call. We can typically schedule your pickup within 1–2 days."
           }
         },
         {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Yard Waste Removal",
-            "url": "https://www.YOUR-DOMAIN-PLACEHOLDER.com/yard-waste-removal-anderson/"
+          "@type": "Question",
+          "name": "Are you licensed and insured?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Anderson Junk Removal Pros is fully licensed and insured. You should never let an unlicensed crew onto your property — accidents happen, and you could be held liable if the team isn't covered. When you hire us, your property and belongings are protected."
           }
         },
         {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Estate Cleanouts",
-            "url": "https://www.YOUR-DOMAIN-PLACEHOLDER.com/estate-cleanouts-anderson/"
+          "@type": "Question",
+          "name": "Do you offer free estimates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. We offer free estimates with no commitment required. Call us at (843) 642-8417 or fill out the form on our website. We'll ask a few quick questions or look at photos of your junk to give you an accurate, upfront price. No pressure, ever."
           }
         },
         {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Construction Debris Removal",
-            "url": "https://www.YOUR-DOMAIN-PLACEHOLDER.com/construction-debris-removal-anderson/"
+          "@type": "Question",
+          "name": "How do I schedule a junk removal appointment in Anderson?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It's easy. Call us at (843) 642-8417 or fill out the quick quote form on our website. We'll confirm your appointment, give you a time window, and show up ready to work. For most jobs in Anderson, we can be there same-day or next-day."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What areas near Anderson do you serve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We serve Anderson and all surrounding Upstate South Carolina communities including Clemson, Seneca, Easley, Belton, Honea Path, Williamston, Pendleton, Iva, and Walhalla. Not sure if we cover your area? Just give us a call at (843) 642-8417 — we'll let you know right away."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does junk removal take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most standard residential junk removal jobs in Anderson take between 30 minutes and 2 hours. Larger projects like estate cleanouts or construction debris removal may take longer. We'll give you a realistic time estimate when we quote your job so you can plan your day."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What makes Anderson Junk Removal Pros different from other junk removal companies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We're a local Anderson business — we live and work in the same community you do. We show up on time, give honest prices, do the heavy lifting without complaint, and leave your property cleaner than we found it. We're fully licensed and insured, which not all local crews can say."
           }
         }
       ]
     }
   },
 
-  "FAQPage": {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How much does junk removal cost in Anderson?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Junk removal pricing in Anderson, SC depends on volume (how much space your items take up in the truck), item type, and accessibility. We provide free, no-obligation estimates before any work begins. Call us or fill out our online form to get an honest price for your specific job."
-        }
+  "3_Service_furniture-removal": {
+    "_where": "Furniture Removal page (/furniture-removal-anderson/)",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Furniture Removal in Anderson, SC",
+      "serviceType": "Furniture Removal",
+      "description": "Professional furniture removal in Anderson, SC. We haul sofas, mattresses, beds, dressers, tables, and all household furniture — no job too big or small. Free estimates.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Anderson Junk Removal Pros",
+        "telephone": "(843) 642-8417",
+        "url": "https://andersonjunkremovalpros.com"
       },
-      {
-        "@type": "Question",
-        "name": "How often should I get junk removal done in Anderson?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Most Anderson homeowners schedule junk removal once or twice a year, often tied to seasonal cleanouts or home projects. If clutter has built up to the point where it's affecting how you use your space, it's time to call. We can typically schedule your pickup within 1–2 days."
-        }
+      "areaServed": {
+        "@type": "City",
+        "name": "Anderson",
+        "containedInPlace": { "@type": "State", "name": "South Carolina" }
       },
-      {
-        "@type": "Question",
-        "name": "Are you licensed and insured?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, Anderson Junk Removal Pros is fully licensed and insured. You should never let an unlicensed crew onto your property — accidents happen, and you could be held liable if the team isn't covered. When you hire us, your property and belongings are protected."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Do you offer free estimates?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Absolutely. We offer free estimates with no commitment required. Call us at CALLRAIL_PLACEHOLDER or fill out the form on our website. We'll ask a few quick questions or look at photos of your junk to give you an accurate, upfront price. No pressure, ever."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How do I schedule a junk removal appointment in Anderson?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "It's easy. Call us at CALLRAIL_PLACEHOLDER or fill out the quick quote form on our website. We'll confirm your appointment, give you a time window, and show up ready to work. For most jobs in Anderson, we can be there same-day or next-day."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What areas near Anderson do you serve?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "We serve Anderson and all surrounding Upstate South Carolina communities including Clemson, Seneca, Easley, Belton, Honea Path, Williamston, Pendleton, Iva, and Walhalla. Not sure if we cover your area? Just give us a call — we'll let you know right away."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How long does junk removal take?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Most standard residential junk removal jobs in Anderson take between 30 minutes and 2 hours. Larger projects like estate cleanouts or construction debris removal may take longer. We'll give you a realistic time estimate when we quote your job so you can plan your day."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What makes Anderson Junk Removal Pros different from other junk removal companies in Anderson?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "We're a local Anderson business — we live and work in the same community you do. We show up on time, give honest prices, do the heavy lifting without complaint, and leave your property cleaner than we found it. We're fully licensed and insured, which not all local crews can say."
+      "url": "https://andersonjunkremovalpros.com/furniture-removal-anderson/",
+      "offers": {
+        "@type": "Offer",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "priceCurrency": "USD",
+          "description": "Free estimate — pricing based on volume and item type"
         }
       }
-    ]
+    }
   },
 
-  "HowToPaste": {
-    "_note": "Copy the code blocks below exactly and paste into WordPress Admin → Settings → Insert Headers and Footers → Scripts in Header",
+  "4_Service_appliance-removal": {
+    "_where": "Appliance Removal page (/appliance-removal-anderson/)",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Appliance Removal in Anderson, SC",
+      "serviceType": "Appliance Removal",
+      "description": "Old refrigerators, washers, dryers, dishwashers, and more — Anderson Junk Removal Pros handles proper appliance removal and disposal in Anderson, SC. Refrigerant handled per EPA regulations.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Anderson Junk Removal Pros",
+        "telephone": "(843) 642-8417",
+        "url": "https://andersonjunkremovalpros.com"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Anderson",
+        "containedInPlace": { "@type": "State", "name": "South Carolina" }
+      },
+      "url": "https://andersonjunkremovalpros.com/appliance-removal-anderson/",
+      "offers": {
+        "@type": "Offer",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "priceCurrency": "USD",
+          "description": "Free estimate — pricing based on appliance type and quantity"
+        }
+      }
+    }
+  },
 
-    "LocalBusinessSchemaHTML": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"LocalBusiness\",\n  \"name\": \"Anderson Junk Removal Pros\",\n  \"description\": \"Professional junk removal serving Anderson, SC and surrounding areas.\",\n  \"telephone\": \"CALLRAIL_PLACEHOLDER\",\n  \"url\": \"https://www.YOUR-DOMAIN-PLACEHOLDER.com\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Anderson\",\n    \"addressRegion\": \"SC\",\n    \"addressCountry\": \"US\"\n  },\n  \"areaServed\": [\"Anderson\", \"Clemson\", \"Seneca\", \"Easley\", \"Belton\", \"Honea Path\", \"Williamston\", \"Pendleton\", \"Iva\", \"Walhalla\"],\n  \"serviceType\": \"Junk Removal\",\n  \"priceRange\": \"$$\",\n  \"openingHours\": \"Mo-Sa 07:00-19:00\"\n}\n</script>",
+  "5_Service_yard-waste-removal": {
+    "_where": "Yard Waste Removal page (/yard-waste-removal-anderson/)",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Yard Waste Removal in Anderson, SC",
+      "serviceType": "Yard Waste Removal",
+      "description": "Brush piles, storm debris, tree limbs, old landscaping materials — we haul it all away fast. Professional yard waste removal in Anderson, SC. Free estimates.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Anderson Junk Removal Pros",
+        "telephone": "(843) 642-8417",
+        "url": "https://andersonjunkremovalpros.com"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Anderson",
+        "containedInPlace": { "@type": "State", "name": "South Carolina" }
+      },
+      "url": "https://andersonjunkremovalpros.com/yard-waste-removal-anderson/",
+      "offers": {
+        "@type": "Offer",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "priceCurrency": "USD",
+          "description": "Free estimate — pricing based on volume of yard debris"
+        }
+      }
+    }
+  },
 
-    "FAQSchemaHTML": "Paste FAQ schema wrapped in <script type=\"application/ld+json\"> tags in the same field, after the LocalBusiness schema."
+  "6_Service_estate-cleanouts": {
+    "_where": "Estate Cleanouts page (/estate-cleanouts-anderson/)",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Estate Cleanouts in Anderson, SC",
+      "serviceType": "Estate Cleanout",
+      "description": "Full-property estate cleanouts in Anderson, SC handled with care and efficiency. We clear everything from a single room to an entire home. Respectful, thorough, and fully insured.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Anderson Junk Removal Pros",
+        "telephone": "(843) 642-8417",
+        "url": "https://andersonjunkremovalpros.com"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Anderson",
+        "containedInPlace": { "@type": "State", "name": "South Carolina" }
+      },
+      "url": "https://andersonjunkremovalpros.com/estate-cleanouts-anderson/",
+      "offers": {
+        "@type": "Offer",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "priceCurrency": "USD",
+          "description": "Free estimate — pricing based on property size and volume"
+        }
+      }
+    }
+  },
+
+  "7_Service_construction-debris": {
+    "_where": "Construction Debris Removal page (/construction-debris-removal-anderson/)",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Construction Debris Removal in Anderson, SC",
+      "serviceType": "Construction Debris Removal",
+      "description": "Keep your worksite clean with fast construction debris removal in Anderson, SC. Drywall, lumber, roofing material, concrete, and demo waste hauled away. Same-day service available.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Anderson Junk Removal Pros",
+        "telephone": "(843) 642-8417",
+        "url": "https://andersonjunkremovalpros.com"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Anderson",
+        "containedInPlace": { "@type": "State", "name": "South Carolina" }
+      },
+      "url": "https://andersonjunkremovalpros.com/construction-debris-removal-anderson/",
+      "offers": {
+        "@type": "Offer",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "priceCurrency": "USD",
+          "description": "Free estimate — pricing based on debris type, volume, and disposal requirements"
+        }
+      }
+    }
+  },
+
+  "8_BreadcrumbList_patterns": {
+    "_where": "Each inner page — customize the 'item' values to match the actual page",
+    "_note": "Homepage does not need a breadcrumb. Add these to every service page, city page, blog post, and the contact page.",
+
+    "service_page_example": {
+      "_page": "/furniture-removal-anderson/",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://andersonjunkremovalpros.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Furniture Removal", "item": "https://andersonjunkremovalpros.com/furniture-removal-anderson/" }
+        ]
+      }
+    },
+
+    "city_page_example": {
+      "_page": "/junk-removal-clemson-sc/",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://andersonjunkremovalpros.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Junk Removal Clemson SC", "item": "https://andersonjunkremovalpros.com/junk-removal-clemson-sc/" }
+        ]
+      }
+    },
+
+    "blog_post_example": {
+      "_page": "/junk-removal-cost-anderson-sc/",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://andersonjunkremovalpros.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://andersonjunkremovalpros.com/blog/" },
+          { "@type": "ListItem", "position": 3, "name": "Junk Removal Cost Anderson SC", "item": "https://andersonjunkremovalpros.com/junk-removal-cost-anderson-sc/" }
+        ]
+      }
+    }
+  },
+
+  "9_FAQPage_city_page_template": {
+    "_where": "Each Tier 1 city page — replace [CITY] and [CITY_SLUG] with actual city name/slug",
+    "_pages": [
+      "/junk-removal-clemson-sc/",
+      "/junk-removal-easley-sc/",
+      "/junk-removal-seneca-sc/"
+    ],
+    "schema_template": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do you offer junk removal in [CITY], SC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — we serve [CITY] and the surrounding areas from our Anderson base. Call us at (843) 642-8417 for a free estimate. We can typically schedule same-day or next-day service in [CITY]."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does junk removal cost in [CITY], SC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pricing depends on volume, item type, and accessibility. We provide free, no-obligation estimates for every job in [CITY]. Call (843) 642-8417 or fill out our quick form online — no pressure, honest pricing upfront."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are you licensed and insured to work in [CITY]?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Anderson Junk Removal Pros is fully licensed and insured for all work we perform in [CITY] and throughout Upstate South Carolina."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What items do you haul away in [CITY]?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We remove furniture, appliances, yard waste, estate contents, and construction debris in [CITY]. If you're not sure whether we can take something, just call (843) 642-8417 — we're happy to answer."
+          }
+        }
+      ]
+    }
+  },
+
+  "10_WPCode_implementation": {
+    "_tool": "WPCode (recommended over Insert Headers and Footers for page-specific control)",
+    "steps": [
+      "Install WPCode Free from WordPress Admin → Plugins → Add New → search 'WPCode'",
+      "Go to WordPress Admin → Code Snippets → Add Snippet",
+      "Select 'Header & Footer' snippet type",
+      "Paste the LocalBusiness schema (block 1 above, wrapped in <script type='application/ld+json'> tags) and set it to run on ALL pages",
+      "Create a separate snippet for each page-specific schema (FAQPage homepage, each Service schema, each BreadcrumbList)",
+      "For page-specific snippets: under 'Insert on specific pages', choose 'Page URL' → 'contains' → enter the page slug (e.g. '/furniture-removal-anderson/')",
+      "Activate each snippet",
+      "Validate with Google Rich Results Test: https://search.google.com/test/rich-results"
+    ],
+    "head_tag_format": "<script type=\"application/ld+json\">\nPASTE_SCHEMA_OBJECT_HERE\n</script>",
+    "validation_checklist": [
+      "LocalBusiness appears sitewide — test on homepage and a service page",
+      "FAQPage appears on homepage only — confirm it does NOT appear on service pages",
+      "Service schema appears only on the matching service page",
+      "BreadcrumbList appears on all inner pages (not homepage)",
+      "Rich Results Test shows no errors (warnings are OK)",
+      "No AggregateRating or Review schema anywhere — double-check"
+    ]
   }
 }

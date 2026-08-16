@@ -162,6 +162,173 @@ junk removal DIY vs professional Anderson SC
 
 ---
 
+## CITY / LOCATION PAGES
+
+### Clemson Page
+
+**Primary Keyword:**
+junk removal Clemson SC
+
+**Secondary Keywords:**
+- junk removal Clemson South Carolina
+- junk hauling Clemson SC
+- furniture removal Clemson SC
+- appliance removal Clemson SC
+- estate cleanout Clemson SC
+- junk removal near Clemson University
+
+**Search Intent:** Local transactional — user in Clemson area wants to hire someone
+
+---
+
+### Easley Page
+
+**Primary Keyword:**
+junk removal Easley SC
+
+**Secondary Keywords:**
+- junk removal Easley South Carolina
+- junk hauling Easley SC
+- furniture removal Easley SC
+- appliance removal Easley SC
+- junk removal Pickens County SC
+
+**Search Intent:** Local transactional — user in Easley/Pickens County wants to hire someone
+
+---
+
+### Seneca Page
+
+**Primary Keyword:**
+junk removal Seneca SC
+
+**Secondary Keywords:**
+- junk removal Seneca South Carolina
+- junk hauling Seneca SC
+- junk removal Oconee County SC
+- junk removal Lake Keowee SC
+- appliance removal Seneca SC
+
+**Search Intent:** Local transactional — user in Seneca/Oconee County wants to hire someone
+
+---
+
+## ABOUT PAGE
+
+**Primary Keyword:**
+junk removal Anderson SC (supporting)
+
+**Secondary Keywords:**
+- licensed junk removal Anderson SC
+- insured junk removal Anderson SC
+- local junk removal company Anderson
+
+**Search Intent:** Navigational / trust-building — user wants to know who they're hiring
+
+---
+
+## BLOG POST 4 — Where to Take Junk
+
+**Primary Keyword:**
+where to take junk Anderson County SC
+
+**Secondary Keywords:**
+- Anderson County landfill junk
+- junk disposal options Anderson SC
+- where to dump junk Anderson SC
+- Anderson County solid waste
+
+**Search Intent:** Informational — user needs disposal options
+
+---
+
+## BLOG POST 5 — How Often Clean Garage
+
+**Primary Keyword:**
+how often clean garage Anderson SC
+
+**Secondary Keywords:**
+- garage cleanout Anderson SC
+- when to clean garage Anderson
+- Anderson SC garage organization
+
+**Search Intent:** Informational — homeowner seeking guidance on frequency
+
+---
+
+## BLOG POST 6 — Bulk Trash vs. Junk Removal
+
+**Primary Keyword:**
+Anderson County bulk trash junk removal
+
+**Secondary Keywords:**
+- bulk trash pickup Anderson SC
+- curbside bulk pickup Anderson SC
+- Anderson County junk disposal options
+
+**Search Intent:** Informational / comparison — user weighing options
+
+---
+
+## BLOG POST 7 — Dispose Old Refrigerator
+
+**Primary Keyword:**
+dispose old refrigerator Anderson SC
+
+**Secondary Keywords:**
+- refrigerator disposal Anderson SC
+- old fridge removal Anderson SC
+- how to get rid of refrigerator Anderson
+- refrigerant disposal South Carolina
+
+**Search Intent:** Informational with transactional intent — user has a specific problem
+
+---
+
+## BLOG POST 8 — Yard Debris After Storm
+
+**Primary Keyword:**
+yard debris storm cleanup Upstate SC
+
+**Secondary Keywords:**
+- storm debris removal Anderson SC
+- fallen limbs cleanup Anderson SC
+- yard waste after storm South Carolina
+- storm cleanup Upstate South Carolina
+
+**Search Intent:** Informational, often urgent post-storm — seasonal spikes
+
+---
+
+## BLOG POST 9 — Estate Cleanout Checklist
+
+**Primary Keyword:**
+estate cleanout checklist Anderson SC
+
+**Secondary Keywords:**
+- estate cleanout Anderson County SC
+- how to do estate cleanout Anderson
+- estate sale cleanout Anderson SC
+- whole house cleanout checklist
+
+**Search Intent:** Informational with high purchase intent — user is planning an estate cleanout
+
+---
+
+## BLOG POST 10 — Junk Removal vs. Dumpster Rental
+
+**Primary Keyword:**
+junk removal vs dumpster rental Anderson SC
+
+**Secondary Keywords:**
+- dumpster rental Anderson SC
+- roll off dumpster Anderson SC
+- should I rent dumpster or hire junk removal Anderson
+
+**Search Intent:** Informational / comparison — user is actively deciding between options
+
+---
+
 ## LONG-TAIL KEYWORD OPPORTUNITIES
 
 These terms are lower volume but easier to rank for. Work them naturally into blog posts, service pages, and FAQ answers:

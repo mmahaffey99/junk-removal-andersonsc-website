@@ -1,6 +1,6 @@
 # Meta Titles & Descriptions — Anderson Junk Removal Pros
 **How to use:** Enter these into Yoast SEO on each page/post in WordPress.
-**Note:** Replace CALLRAIL_PLACEHOLDER with your real tracking number before launch.
+**Note:** Replace (843) 642-8417 with your real tracking number before launch.
 
 ---
 
@@ -17,7 +17,7 @@ Junk Removal Near Me | Anderson, SC | Anderson Junk Removal Pros
 Junk Removal Anderson SC | Anderson Junk Removal Pros
 
 **Meta Description (153 chars):**
-Top-rated junk removal in Anderson, SC. Free estimates. Fast, same-day service. Call CALLRAIL_PLACEHOLDER or request a free quote online today.
+Top-rated junk removal in Anderson, SC. Free estimates. Fast, same-day service. Call (843) 642-8417 or request a free quote online today.
 
 ---
 
@@ -91,7 +91,7 @@ Keep your worksite clean with fast construction debris removal in Anderson, SC. 
 Contact Anderson Junk Removal Pros | Anderson, SC
 
 **Meta Description (158 chars):**
-Get a free estimate for junk removal in Anderson, SC. Call CALLRAIL_PLACEHOLDER or fill out our quick form. We respond to all inquiries within 1 business day.
+Get a free estimate for junk removal in Anderson, SC. Call (843) 642-8417 or fill out our quick form. We respond to all inquiries within 1 business day.
 
 ---
 
@@ -130,6 +130,144 @@ DIY vs. Professional Junk Removal in Anderson, SC — What to Know
 
 **Meta Description (158 chars):**
 Thinking about hauling junk yourself in Anderson, SC? Read this honest breakdown of DIY vs. hiring a professional before you decide. Then get a free quote.
+
+---
+
+## CITY / LOCATION PAGES
+
+### Junk Removal Clemson SC
+
+**URL:** `/junk-removal-clemson-sc/`
+
+**Meta Title (53 chars):**
+Junk Removal Clemson SC | Anderson Junk Removal Pros
+
+**Meta Description (154 chars):**
+Professional junk removal in Clemson, SC. Furniture, appliances, yard waste, and more. Serving Clemson and Lake Hartwell area. Free estimates. Call (843) 642-8417.
+
+---
+
+### Junk Removal Easley SC
+
+**URL:** `/junk-removal-easley-sc/`
+
+**Meta Title (52 chars):**
+Junk Removal Easley SC | Anderson Junk Removal Pros
+
+**Meta Description (153 chars):**
+Professional junk removal in Easley, SC. Furniture, appliances, yard waste, estate cleanouts, and more. Serving Easley and Pickens County. Free estimates. Call (843) 642-8417.
+
+---
+
+### Junk Removal Seneca SC
+
+**URL:** `/junk-removal-seneca-sc/`
+
+**Meta Title (52 chars):**
+Junk Removal Seneca SC | Anderson Junk Removal Pros
+
+**Meta Description (157 chars):**
+Professional junk removal in Seneca, SC. Serving Seneca, Lake Keowee, and western Oconee County. Furniture, appliances, yard waste, and more. Free estimates. Call (843) 642-8417.
+
+---
+
+## ABOUT PAGE
+
+**URL:** `/about/`
+
+**Meta Title (56 chars):**
+About Anderson Junk Removal Pros | Anderson, SC
+
+**Meta Description (155 chars):**
+Anderson Junk Removal Pros is a local junk removal service in Anderson, SC. Licensed, insured, honest pricing. Serving Anderson County and Upstate SC.
+
+---
+
+## BLOG POSTS (Additional)
+
+### Post 4 — Where to Take Junk
+
+**URL:** `/where-to-take-junk-anderson-county/`
+
+**Meta Title (57 chars):**
+Where to Take Junk in Anderson County, SC — Options
+
+**Meta Description (155 chars):**
+Where do you take junk in Anderson County, SC? This guide covers the landfill, recycling, donation options, and when hiring a junk removal service makes sense.
+
+---
+
+### Post 5 — How Often Clean Garage
+
+**URL:** `/how-often-clean-garage-anderson/`
+
+**Meta Title (55 chars):**
+How Often Should You Clean Your Garage in Anderson?
+
+**Meta Description (155 chars):**
+How often should Anderson, SC homeowners clean out their garage? This guide covers timing, warning signs, and what to do with junk that won't fit in the trash.
+
+---
+
+### Post 6 — Bulk Trash vs. Junk Removal
+
+**URL:** `/anderson-county-bulk-trash-vs-junk-removal/`
+
+**Meta Title (60 chars — at limit):**
+Anderson County Bulk Trash vs. Junk Removal — What's the Difference?
+
+> *Trim if needed: "Bulk Trash vs. Junk Removal in Anderson County, SC"*
+
+**Meta Description (156 chars):**
+What's the difference between Anderson County bulk trash pickup and hiring a junk removal service? This guide explains both so you can choose the right option.
+
+---
+
+### Post 7 — Dispose Old Refrigerator
+
+**URL:** `/how-to-dispose-old-refrigerator-anderson-sc/`
+
+**Meta Title (56 chars):**
+How to Dispose of an Old Refrigerator in Anderson, SC
+
+**Meta Description (155 chars):**
+How do you get rid of an old refrigerator in Anderson, SC? This guide covers legal disposal options — county programs, utility rebates, and appliance removal.
+
+---
+
+### Post 8 — Yard Debris After Storm
+
+**URL:** `/yard-debris-after-storm-upstate-sc/`
+
+**Meta Title (54 chars):**
+Yard Debris After a Storm in Upstate SC — What to Do
+
+**Meta Description (153 chars):**
+After a storm in Anderson or Upstate SC, what do you do with fallen limbs and debris? This guide covers safety, cleanup options, and when to call for haul-away.
+
+---
+
+### Post 9 — Estate Cleanout Checklist
+
+**URL:** `/estate-cleanout-checklist-anderson-sc/`
+
+**Meta Title (57 chars):**
+Estate Cleanout Checklist for Anderson, SC Homeowners
+
+**Meta Description (155 chars):**
+Planning an estate cleanout in Anderson, SC? This checklist covers what to do first, what to keep, what to donate, and how to handle the haul-away efficiently.
+
+---
+
+### Post 10 — Junk Removal vs. Dumpster Rental
+
+**URL:** `/junk-removal-vs-dumpster-rental-anderson/`
+
+**Meta Title (60 chars — at limit):**
+Junk Removal vs. Dumpster Rental in Anderson, SC — Which to Choose?
+
+**Meta Description (158 chars):**
+Deciding between junk removal and dumpster rental in Anderson, SC? This honest comparison covers cost, convenience, timing, and which option fits your project.
 
 ---
 

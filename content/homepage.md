@@ -8,8 +8,8 @@
 
 **Left:** Anderson Junk Removal Pros *(logo/business name)*
 
-**Right:** `[Call Now — Free Quote: CALLRAIL_PLACEHOLDER]`
-- Link: `<a href="tel:CALLRAIL_PLACEHOLDER" class="header-phone-button">Call Now — Free Quote: CALLRAIL_PLACEHOLDER</a>`
+**Right:** `[Call Now — Free Quote: (843) 642-8417]`
+- Link: `<a href="tel:+18436428417" class="header-phone-button">Call Now — Free Quote: (843) 642-8417</a>`
 - Style: Dark background, white text, bold, minimum 44px tap target
 
 ---
@@ -25,7 +25,7 @@ Trusted Junk Removal Experts Serving Anderson, SC and Surrounding Areas
 **Background Image:** [REPLACE WITH HIGH-QUALITY PHOTO: Real photo of completed junk removal job in Anderson, SC. Compress to under 200KB before upload. Recommended size: 1920×900px. Source options: your own job photos, or royalty-free stock with note to replace before launch.]
 
 **CTA Button (large, high contrast):**
-`Call Now for a Free Quote: CALLRAIL_PLACEHOLDER` → `tel:CALLRAIL_PLACEHOLDER`
+`Call Now for a Free Quote: (843) 642-8417` → `tel:+18436428417`
 
 ---
 
@@ -133,9 +133,9 @@ We're not done until you're happy. From the moment we arrive to the moment we dr
 We provide professional junk removal throughout Anderson, SC and the surrounding Upstate South Carolina communities. Wherever you are, we're not far away.
 
 - **Junk Removal in Anderson, SC** *(our home base)*
-- **Junk Removal in Clemson, SC**
-- **Junk Removal in Seneca, SC**
-- **Junk Removal in Easley, SC**
+- **[Junk Removal in Clemson, SC](https://andersonjunkremovalpros.com/junk-removal-clemson-sc/)** — college-town and Lake Hartwell area service
+- **[Junk Removal in Easley, SC](https://andersonjunkremovalpros.com/junk-removal-easley-sc/)** — serving Easley and Pickens County
+- **[Junk Removal in Seneca, SC](https://andersonjunkremovalpros.com/junk-removal-seneca-sc/)** — serving Seneca, Lake Keowee, and western Oconee County
 - **Junk Removal in Belton, SC**
 - **Junk Removal in Honea Path, SC**
 - **Junk Removal in Williamston, SC**
@@ -144,7 +144,7 @@ We provide professional junk removal throughout Anderson, SC and the surrounding
 - **Junk Removal in Walhalla, SC**
 
 *Don't see your area? Call us — we may still be able to help.*
-`CALLRAIL_PLACEHOLDER` → `tel:CALLRAIL_PLACEHOLDER`
+`(843) 642-8417` → `tel:+18436428417`
 
 ---
 
@@ -174,13 +174,13 @@ Yes, Anderson Junk Removal Pros is fully licensed and insured. You should never 
 
 ### Do you offer free estimates?
 
-Absolutely. We offer free estimates — no commitment required. You can call us at CALLRAIL_PLACEHOLDER or fill out the form on this page to get started. We'll ask a few quick questions or look at photos of your junk to give you an accurate, upfront price. No pressure, ever.
+Absolutely. We offer free estimates — no commitment required. You can call us at (843) 642-8417 or fill out the form on this page to get started. We'll ask a few quick questions or look at photos of your junk to give you an accurate, upfront price. No pressure, ever.
 
 ---
 
 ### How do I schedule a junk removal appointment in Anderson?
 
-It's easy. You can call us at CALLRAIL_PLACEHOLDER or fill out the quick quote form on this page. We'll confirm your appointment, give you a time window, and show up ready to work. For most jobs in Anderson, we can get out to you same-day or next-day.
+It's easy. You can call us at (843) 642-8417 or fill out the quick quote form on this page. We'll confirm your appointment, give you a time window, and show up ready to work. For most jobs in Anderson, we can get out to you same-day or next-day.
 
 ---
 
@@ -207,7 +207,7 @@ We're a local business — we live and work in the same community you do. That m
 **Headline:** Ready to Get Started? We'd Love to Help.
 
 **Large Phone Number:**
-`CALLRAIL_PLACEHOLDER` → `tel:CALLRAIL_PLACEHOLDER`
+`(843) 642-8417` → `tel:+18436428417`
 
 **Subtext:**
 Or scroll up and fill out our quick quote form — we respond within 1 business day.
@@ -216,7 +216,7 @@ Or scroll up and fill out our quick quote form — we respond within 1 business 
 
 ## ⑩ FOOTER
 
-Anderson Junk Removal Pros | CALLRAIL_PLACEHOLDER *(clickable)*
+Anderson Junk Removal Pros | (843) 642-8417 *(clickable)*
 
 **Quick Links:** Home | Services | Contact | Privacy Policy
 
